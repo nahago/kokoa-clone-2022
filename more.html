@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Friends - Kokoa Clone</title>
+    <title>More - Kokoa Clone</title>
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
@@ -27,7 +27,7 @@
     </div>
 
     <header class="screen-header">
-        <h1 class="screen-header__title">Friends</h1>
+        <h1 class="screen-header__title">More</h1>
         <div class="screen-header__icons">
             <span>
                 <i class="fa-solid fa-magnifying-glass fa-lg"></i>
@@ -41,39 +41,48 @@
         </div>
     </header>
 
-    <a id="friends-display-link">
-        <i class="fa-solid fa-circle-info"></i>
-        Friends' Names Display
-        <i class="fa-solid fa-chevron-right fa-xs"></i>
-    </a>
-    <main class="friends-screen">
+    <main class="main-screen more-screen">
         <div class="user-component">
             <div class="user-component__column">
                 <img src="img/a.png" class="user-component__avatar user-component__avatar--xl"/>
                 <div class="user-component__text">
                     <h4 class="user-component__title">Hana</h4>
-                    <!-- <h6 class="user-component__subtitle">this text what ever</h6> -->
+                    <div class="mom">
+                        <h6 class="user-component__subtitle markmom">+1 222-333-5555</h6>
+                        <span class="mark">!</span>
+                    </div>
                 </div>
             </div>
-            <div class="user-component__column"></div>
+            <div class="user-component__column">
+                <i class="fa-solid fa-envelope-open-text fa-2x"></i>
+            </div>
         </div>
-        <div class="friends-screen__channel">
-            <div class="friends-screen__channel-header">
-                <span>Channel</span>
-                <i class="fa-solid fa-chevron-up fa-xs"></i>
+        <div class="icon-row">
+            <div class="icon-row__icon">
+                <i class="fa-regular fa-calendar"></i>
+                <span>Calendar</span>
             </div>
-            <div class="user-component">
-                <div class="user-component__column">
-                    <img src="img/a.png" class="user-component__avatar user-component__avatar--sm"/>
-                    <div class="user-component__text">
-                        <h4 class="user-component__title user-component__title--not-bold">Channel</h4>
+            <div class="icon-row__icon">
+                <i class="fa-regular fa-face-grin-squint-tears"></i>
+                <span>Emoticons</span>
+            </div>
+            <div class="icon-row__icon">
+                <i class="fa-solid fa-paint-roller"></i>
+                <span>Themes</span>
+            </div>
+            <div class="icon-row__icon">
+                <i class="fa-solid fa-file-invoice-dollar"></i>
+                <span>Account</span>
+            </div>
+        </div>
+        <div class="more-suggestions">
+            <h4 class="more-suggestions__title">Suggestions</h4>
+            <div class="more-suggestions__icons">
+                <div class="more-suggestions__icon">
+                    <div class="more-suggestions__icon-image">
+                        <i class="fa-solid fa-quote-right"></i>
                     </div>
-                </div>
-                <div class="user-component__column">
-                    <div>
-                        <span>2</span>
-                        <i class="fa-solid fa-chevron-right fa-xs"></i>
-                    </div>
+                    <span class="more-suggestions__icon-text">Kokoa Story</span>
                 </div>
             </div>
         </div>
@@ -83,7 +92,7 @@
         <ul class="nav__list">
             <li class="nav_btn">
                 <a class="nav__link" href="friends.html">
-                    <i class="fa-solid fa-user fa-2x"></i>
+                    <i class="fa-regular fa-user fa-2x"></i>
                 </a>
             </li>
             <li class="nav_btn">
