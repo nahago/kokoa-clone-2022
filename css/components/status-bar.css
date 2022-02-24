@@ -2,6 +2,9 @@
     display: flex;
     justify-content: center;
     padding: 5px 3px;
+    position: sticky;
+    top: 0px;
+    background-color: inherit;
 }
 
 .status-bar__column {
